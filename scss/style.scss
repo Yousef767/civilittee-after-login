@@ -3325,12 +3325,19 @@ input[type="date"]::-webkit-datetime-edit {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+  padding-top: 50px;
   h2 {
     color: $main;
     font-size: 1.4em;
     padding-bottom: 10px;
   }
 }
+@media (max-width: 1101px) {
+  .notifications {
+    padding-top: 20px;
+  }
+}
+
 .notiInner {
   display: flex;
   flex-direction: column;

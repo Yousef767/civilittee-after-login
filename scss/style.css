@@ -3509,6 +3509,7 @@ input[type=date]::-webkit-datetime-edit {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+  padding-top: 50px;
 }
 .notifications h2 {
   color: #1a464c;
@@ -3516,6 +3517,11 @@ input[type=date]::-webkit-datetime-edit {
   padding-bottom: 10px;
 }
 
+@media (max-width: 1101px) {
+  .notifications {
+    padding-top: 20px;
+  }
+}
 .notiInner {
   display: flex;
   flex-direction: column;
